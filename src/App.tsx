@@ -12,7 +12,8 @@ import LineUpLite, {
   featureFlexLayout,
   LineUpLiteStateContextProvider,
   LineUpLitePanel,
-  LineUpLiteComponentLike
+  LineUpLiteComponentLike,
+  asNumberColumn
 } from "@lineup-lite/table";
 /* import {
   defaultDarkColorScale,
@@ -54,8 +55,15 @@ function Table({ isDarkTheme }: { isDarkTheme: boolean }) {
     asNumberBoxPlotColumn<Row>("snykHealthScore", {}),
     asCategoricalColumn<Row>("packageMaintenance", {
       categories: ["Unfunded", "Funded"]
-    })
-  ]);
+    }),
+    asNumberColumn<Row>("totalContributors", {}),
+    asCategoricalColumn<Row>("Reliability", {
+      categories: ["High", "Medium", "Low"]
+    }),
+    asNumberColumn<Row>("correlationStrength", {}),
+    asNumberColumn<Row>("totalGithubForks", {})
+  ], []);
+
 
   const features = useMemo(
     () => [featureResizeColumns, featureDefault<Row>(), featureFlexLayout],
@@ -105,7 +113,7 @@ function Table({ isDarkTheme }: { isDarkTheme: boolean }) {
 export default function App(): JSX.Element {
   return (
     <div className="App">
-      <Table />
+      <Table isDarkTheme={true} />
     </div>
   );
 }

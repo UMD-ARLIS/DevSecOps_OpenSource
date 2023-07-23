@@ -574,7 +574,7 @@ export const data: Row[] = [
   {
     packageName: "",
     snykHealthScore: 0,
-    packageMaintenance: "",
+    packageMaintenance: "_",
     dependentModels: []
   }
 ];

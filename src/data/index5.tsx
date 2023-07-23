@@ -94,7 +94,8 @@ export const data: Row[] = [
     packageMaintenance: "Funded",
     dependentModels: ["selimsef", "wm", "ntech", "boken"],
     totalContributors: 410,
-    daysSinceLastRelease: 90
+    daysSinceLastRelease: 90,
+    totalGithubForks: 0
   },
   {
     packageName: "pillow",
@@ -253,7 +254,10 @@ export const data: Row[] = [
     packageName: "distlib",
     snykHealthScore: 72,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0,
+    daysSinceLastRelease: 0,
+    totalGithubForks: 0
   },
   {
     packageName: "docopt",
@@ -468,6 +472,7 @@ export const data: Row[] = [
     packageMaintenance: "Unfunded",
     dependentModels: ["wm"],
     totalContributors: 14,
+    daysSinceLastRelease: 0,
     totalGithubForks: 1610
   },
   {
@@ -566,6 +571,7 @@ export const data: Row[] = [
     packageMaintenance: "Unfunded",
     dependentModels: ["eighteen"],
     totalContributors: 1,
+    daysSinceLastRelease: 0,
     totalGithubForks: 2
   },
   {
@@ -698,7 +704,10 @@ export const data: Row[] = [
     packageName: "sip",
     snykHealthScore: 64,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0,
+    daysSinceLastRelease: 0,
+    totalGithubForks: 0
   },
   {
     packageName: "six",
@@ -847,7 +856,7 @@ export const data: Row[] = [
   {
     packageName: "",
     snykHealthScore: 0,
-    packageMaintenance: "",
+    packageMaintenance: "_",
     dependentModels: [],
     totalContributors: 0,
     daysSinceLastRelease: 0,

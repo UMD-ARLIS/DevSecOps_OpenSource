@@ -200,7 +200,8 @@ export const data: Row[] = [
     packageName: "distlib",
     snykHealthScore: 72,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0
   },
   {
     packageName: "docopt",
@@ -549,7 +550,8 @@ export const data: Row[] = [
     packageName: "sip",
     snykHealthScore: 64,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0
   },
   {
     packageName: "six",
@@ -666,7 +668,7 @@ export const data: Row[] = [
   {
     packageName: "",
     snykHealthScore: 0,
-    packageMaintenance: "",
+    packageMaintenance: "_",
     dependentModels: [],
     totalContributors: 0
   }

@@ -100,7 +100,8 @@ export const data: Row[] = [
     snykHealthScore: 68,
     packageMaintenance: "Funded",
     dependentModels: ["selimsef", "medics", "boken"],
-    totalContributors: 20
+    totalContributors: 20,
+    daysSinceLastRelease: 0
   },
   {
     packageName: "efficientnet_pytorch",
@@ -226,7 +227,9 @@ export const data: Row[] = [
     packageName: "distlib",
     snykHealthScore: 72,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0,
+    daysSinceLastRelease: 0
   },
   {
     packageName: "docopt",
@@ -417,7 +420,8 @@ export const data: Row[] = [
     snykHealthScore: 100,
     packageMaintenance: "Unfunded",
     dependentModels: ["wm"],
-    totalContributors: 14
+    totalContributors: 14,
+    daysSinceLastRelease: 0
   },
   {
     packageName: "olefile",
@@ -504,7 +508,8 @@ export const data: Row[] = [
     snykHealthScore: 42,
     packageMaintenance: "Unfunded",
     dependentModels: ["eighteen"],
-    totalContributors: 1
+    totalContributors: 1,
+    daysSinceLastRelease: 60
   },
   {
     packageName: "pyflakes",
@@ -622,7 +627,9 @@ export const data: Row[] = [
     packageName: "sip",
     snykHealthScore: 64,
     packageMaintenance: "Unfunded",
-    dependentModels: ["wm"]
+    dependentModels: ["wm"],
+    totalContributors: 0,
+    daysSinceLastRelease: 0
   },
   {
     packageName: "six",
@@ -755,7 +762,7 @@ export const data: Row[] = [
   {
     packageName: "",
     snykHealthScore: 0,
-    packageMaintenance: "",
+    packageMaintenance: "_",
     dependentModels: [],
     totalContributors: 0,
     daysSinceLastRelease: 0

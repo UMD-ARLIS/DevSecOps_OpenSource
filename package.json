@@ -17,7 +17,7 @@
     "@lineup-lite/components": "~1.6.0",
     "@lineup-lite/hooks": "~1.6.0",
     "@lineup-lite/table": "~1.6.0",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "react-dom": "^17.0.2",
     "react-flip-move": "3.0.4",
     "semantic-ui-react": "2.0.3"
@@ -42,5 +42,8 @@
     "last 1 chrome version",
     "last 1 firefox version",
     "last 1 safari version"
-  ]
+  ],
+  "eslintConfig": {
+    "extends":[ "react-app" ]
+  }
 }
